@@ -1,0 +1,120 @@
+body{
+    background-color: #3b3b3b;
+}
+/* purple Navbar */
+.NavBar{
+    background-color: #6406AC;
+    width: 1600px;
+    height: 190px;
+    margin: 27px 0 0 45px;
+    border-radius: 10px;
+    display: flex;
+}
+
+/* Search Navbar Icon */
+.mainIcon{
+    margin: 40px 0 0 30px;
+    width: 113px;
+}
+.mainIcon:hover{
+    width: 120px;
+    transition: 100ms;
+}
+/* search div */
+.Search{
+    display: inline-block;
+    margin: 68px 0 0 25px;
+}
+input[id=Search]{
+    width: 400px;
+    height: 60px;
+    border-radius: 35px;
+    font-size: 22px;
+    padding-left: 20px;
+    border: 1px solid white;
+    outline: none;
+}
+
+.NavBar ul{
+    margin-right: 20px;
+    margin-left: 200px;
+}
+.NavBar ul li{
+    display: inline-block;
+    line-height: 80px;
+    color: white;
+    margin: 55px 40px;
+}
+
+.NavBar ul li a{
+    color: white;
+    font-size: 33px;
+    font-family:monospace;
+    text-transform: uppercase;
+}
+.NavBar ul li a:hover{
+    color: rgb(201, 201, 201);
+    font-size: 35px;
+    transition: 150ms;
+}
+.Bios{
+    display: flex;
+    height: 360px;
+    margin-top: 80px;
+}
+.SingleBio{
+    width: 360px;
+    height: 360px;
+    background-color: #F14CB0;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.SingleBio:hover{
+    width: 362px;
+    height: 362px;
+    background-color: rgb(247, 0, 255);
+    transition: 200ms;
+
+}
+
+.PersonText{
+    color: white;
+    font-size: 39px;
+    font-family: "BPG Nino Elite Caps", sans-serif;
+    margin: 20px 0 0 50px;
+}
+
+.footer{
+    display: flex;
+    height: 100px;
+    width: 480px;
+    margin: 100px 0 15px 30px;
+    background-color: #EEEEEE;
+    border-radius: 30px;
+}
+#FirstA{
+    width: 70px; 
+    margin-left: 50px; 
+    margin-top: 11px;
+}
+#FirstA:hover{
+    width: 75px;
+}
+
+#SecondA{
+    width: 88px;
+    margin-top: 3px; 
+    margin-left: 70px;
+}
+#SecondA:hover{
+    width: 93px;
+}
+
+#ThirdA{
+    width: 80px; 
+    margin-left: 70px; 
+    margin-top: 7px;
+}
+#ThirdA:hover{
+    width: 85px;
+}
